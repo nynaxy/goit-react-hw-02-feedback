@@ -4,6 +4,8 @@ import Statistics from "./Statistics";
 import Section from "./Section";
 import Notification from "./Notification";
 
+
+
 function App() {
   const [state, setState] = useState({ good: 0, neutral: 0, bad: 0 });
 
